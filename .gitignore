@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+
+logs/
+db/
+migrations/
+
+.deploy_env
+deploy.yml
+nginx.conf
+
+fabfile.py
