@@ -1,6 +1,0 @@
-README.md
-setup.py
-dxd.egg-info/PKG-INFO
-dxd.egg-info/SOURCES.txt
-dxd.egg-info/dependency_links.txt
-dxd.egg-info/top_level.txt

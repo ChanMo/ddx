@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="dxd",
+    name="ddx",
     version="0.0.1",
     author="ChanMo",
     author_email="chan.mo@outlook.com",
     description="快速搭建基于Docker的Django项目",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ChanMo/dxd",
+    url="https://github.com/ChanMo/ddx",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

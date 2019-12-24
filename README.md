@@ -1,4 +1,4 @@
-# DXD (Django x Docker)
+# DDX (Django x Docker)
 
 > 快速搭建基于Docker的Django项目
 
@@ -7,11 +7,11 @@
 ## 安装
 
 ```bash
-$ sudo pip install dxd
+$ sudo pip install ddx
 ```
 
 ## 使用
 
 ```bash
-$ dxd new demo_com
+$ ddx new demo_com
 ```
