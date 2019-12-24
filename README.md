@@ -1,23 +1,17 @@
-# MDX
+# DXD (Django x Docker)
 
-Django + React + Docker 基础模板
+> 快速搭建基于Docker的Django项目
 
-## 包含
+模板使用[django_boilerplate](https://github.com/ChanMo/django_boilerplate)
 
-* django2.2
-* postgres
-* gunicorn
-* redis
-* node10
-* react
+## 安装
 
-## 目录结构
+```bash
+$ sudo pip install dxd
+```
 
-* docker-compose.yml
-* deploy.yml.example # 正式版docker-compose文件
-* Dockerfile # 用于创建django-docker
-* Service # 使用systemctl实例
-* nginx.conf.example # 正式版nginx配置文件示例
-* web-docker # api-docker 文件
-* requirements.txt # api-docker 文件
-* local-example.py # 扩展api settings文件
+## 使用
+
+```bash
+$ dxd new demo_com
+```
