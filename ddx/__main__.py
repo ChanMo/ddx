@@ -18,6 +18,7 @@ def cli():
 @click.command()
 @click.argument('name')
 def new(web, name):
+    """ Create project directory """
     BASE_DIR = os.path.join(os.getcwd(), name)
     subprocess.run(["git", "clone", "https://github.com/ChanMo/django_boilerplate.git", name])
     os.chdir(BASE_DIR)
